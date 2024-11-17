@@ -84,7 +84,7 @@ function createCountryCard(country) {
   const detailsButton = countryCard.querySelector('.details-button');
   detailsButton.onclick = (event) => {
     event.stopPropagation(); 
-    window.location.href = `details.html?name=${encodeURIComponent(country.name.common)}`;
+    window.location.href = `detail.html?name=${encodeURIComponent(country.name.common)}`;
   };
 
   const likeIcon = countryCard.querySelector('.like-icon');
